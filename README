@@ -1,0 +1,9 @@
+Installation:
+- Optional: 
+-- Create a virtualenv with `virtualenv env`. Otherwise, the piexif package will be shared system wide.
+-- Activate the virtualenv with `source env/bin/activate`
+- Install piexif with `pip install -r requirements.txt`
+Usage:
+- Run the script with the folder of mistagged photos as an argument: `python fixexif.py /path/to/my/pics`. Should create scrolling output like 
+"Found improperly tagged photo 'DSC_0004.jpg', updating '2004-12-29 19:14:23' => '2016-08-26 12:34:23'..."
+
